@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+xmlns:gx="http://www.google.com/kml/ext/2.2"
+xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<open>1</open>
+<visibility>1</visibility>
+<name><![CDATA[6/10/2013 4:39pm]]></name>
+<atom:author><atom:name><![CDATA[Created by Google My Tracks on Android.]]></atom:name></atom:author>
+<Style id="track">
+<LineStyle><color>7f0000ff</color><width>4</width></LineStyle>
+<IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href></Icon>
+</IconStyle>
+</Style>
+<Style id="start"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon>
+<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Style id="end"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Style id="statistics"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href></Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Style id="waypoint"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Schema id="schema">
+<gx:SimpleArrayField name="power" type="int">
+<displayName><![CDATA[Power (W)]]></displayName>
+</gx:SimpleArrayField>
+<gx:SimpleArrayField name="cadence" type="int">
+<displayName><![CDATA[Cadence (rpm)]]></displayName>
+</gx:SimpleArrayField>
+<gx:SimpleArrayField name="heart_rate" type="int">
+<displayName><![CDATA[Heart rate (bpm)]]></displayName>
+</gx:SimpleArrayField>
+</Schema>
+<Folder><name><![CDATA[Markers]]></name>
+<open>1</open>
+<Placemark>
+<name><![CDATA[Marker 1]]></name>
+<description><![CDATA[]]></description>
+<TimeStamp><when>2013-06-10T21:41:12.000Z</when></TimeStamp>
+<styleUrl>#waypoint</styleUrl>
+<Point>
+<coordinates>-91.884228,36.652755,310.29998779296875</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Placemark>
+<name><![CDATA[6/10/2013 4:39pm (Start)]]></name>
+<description><![CDATA[]]></description>
+<TimeStamp><when>2013-06-10T21:40:14.000Z</when></TimeStamp>
+<styleUrl>#start</styleUrl>
+<Point>
+<coordinates>-91.884215,36.652778,277.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="tour">
+<name><![CDATA[6/10/2013 4:39pm]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#track</styleUrl>
+<gx:MultiTrack>
+<altitudeMode>absolute</altitudeMode>
+<gx:interpolate>1</gx:interpolate>
+<gx:Track>
+<when>2013-06-10T21:40:14.000Z</when>
+<gx:coord>-91.884215 36.652778 277.0</gx:coord>
+<when>2013-06-10T21:40:15.000Z</when>
+<gx:coord>-91.88414 36.652726 290.5</gx:coord>
+<when>2013-06-10T21:40:16.000Z</when>
+<gx:coord>-91.884069 36.652724 273.70001220703125</gx:coord>
+<when>2013-06-10T21:40:26.000Z</when>
+<gx:coord>-91.884106 36.652753 297.79998779296875</gx:coord>
+<when>2013-06-10T21:40:27.000Z</when>
+<gx:coord>-91.884113 36.652752 297.6000061035156</gx:coord>
+<when>2013-06-10T21:40:35.000Z</when>
+<gx:coord>-91.884162 36.652741 305.0</gx:coord>
+<when>2013-06-10T21:40:36.000Z</when>
+<gx:coord>-91.884171 36.652745 303.70001220703125</gx:coord>
+<when>2013-06-10T21:40:42.000Z</when>
+<gx:coord>-91.884223 36.652758 306.6000061035156</gx:coord>
+<when>2013-06-10T21:40:43.000Z</when>
+<gx:coord>-91.884225 36.652758 306.79998779296875</gx:coord>
+<when>2013-06-10T21:40:54.000Z</when>
+<gx:coord>-91.884205 36.652717 307.20001220703125</gx:coord>
+<when>2013-06-10T21:40:55.000Z</when>
+<gx:coord>-91.884204 36.652715 306.70001220703125</gx:coord>
+<when>2013-06-10T21:41:11.000Z</when>
+<gx:coord>-91.884228 36.652753 310.0</gx:coord>
+<when>2013-06-10T21:41:12.000Z</when>
+<gx:coord>-91.884228 36.652755 310.29998779296875</gx:coord>
+<when>2013-06-10T21:42:25.000Z</when>
+<gx:coord>-91.884249 36.652795 311.1000061035156</gx:coord>
+<when>2013-06-10T21:42:26.000Z</when>
+<gx:coord>-91.884254 36.652801 310.70001220703125</gx:coord>
+<when>2013-06-10T21:44:25.000Z</when>
+<gx:coord>-91.884281 36.652773 305.79998779296875</gx:coord>
+<when>2013-06-10T21:44:26.000Z</when>
+<gx:coord>-91.88429 36.652756 303.3999938964844</gx:coord>
+<when>2013-06-10T21:44:29.000Z</when>
+<gx:coord>-91.884324 36.652721 294.6000061035156</gx:coord>
+<when>2013-06-10T21:44:30.000Z</when>
+<gx:coord>-91.884346 36.652707 293.79998779296875</gx:coord>
+<when>2013-06-10T22:08:27.000Z</when>
+<gx:coord>-91.884335 36.652731 276.1000061035156</gx:coord>
+<ExtendedData>
+<SchemaData schemaUrl="#schema">
+</SchemaData>
+</ExtendedData>
+</gx:Track>
+</gx:MultiTrack>
+</Placemark>
+<Placemark>
+<name><![CDATA[6/10/2013 4:39pm (End)]]></name>
+<description><![CDATA[Created by Google My Tracks on Android.
+
+Name: 6/10/2013 4:39pm
+Activity type: -
+Description: -
+Total distance: 0.06 km (0.0 mi)
+Total time: 28:35
+Moving time: 03:28
+Average speed: 0.12 km/h (0.1 mi/h)
+Average moving speed: 0.97 km/h (0.6 mi/h)
+Max speed: 1.80 km/h (1.1 mi/h)
+Average pace: 507.98 min/km (817.5 min/mi)
+Average moving pace: 61.57 min/km (99.1 min/mi)
+Fastest pace: 33.33 min/km (53.6 min/mi)
+Max elevation: 301 m (989 ft)
+Min elevation: 277 m (909 ft)
+Elevation gain: 0 m (0 ft)
+Max grade: 0 %
+Min grade: 0 %
+Recorded: 6/10/2013 4:39pm
+]]></description>
+<TimeStamp><when>2013-06-10T22:08:27.000Z</when></TimeStamp>
+<styleUrl>#end</styleUrl>
+<Point>
+<coordinates>-91.884335,36.652731,276.1000061035156</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
